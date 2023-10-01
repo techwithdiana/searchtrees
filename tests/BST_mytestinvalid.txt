@@ -1,0 +1,17 @@
+Inserts: 3
+3   
+Tree height is: 0
+error in actions file
+error in actions file
+error in actions file
+error in actions file
+Value 3 was found
+          mytestinvalid
+          Operation Counts
+
+           BST           AVL          Splay
+Search    1             1            1
+Insert    1             1            1
+Delete    0             0            0
+------------------------------------------
+Total     2            2           2

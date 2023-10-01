@@ -1,0 +1,244 @@
+Inserts: 7
+Rotations: 
+7   
+Tree height is: 0
+Inserts: 12
+Rotations: 1 Zag; 
+  12    
+7       
+Tree height is: 1
+Inserts: 22
+Rotations: 1 Zag; 
+      22        
+  12            
+7               
+Tree height is: 2
+Inserts: 11
+Rotations: 1 Zig; 1 ZigZag; 
+      11        
+  7       22    
+        12      
+Tree height is: 2
+Inserts: 16
+Rotations: 1 Zag; 1 ZigZag; 
+      16        
+  11      22    
+7   12          
+Tree height is: 2
+Inserts: 9
+Rotations: 1 Zig; 1 ZigZag; 
+              9                 
+      7               16        
+                  11      22    
+                    12          
+Tree height is: 3
+Inserts: 14
+Rotations: 2 Zag; 1 ZigZig; 1 ZagZig; 
+              14                
+      9               16        
+  7       12              22    
+        11                      
+Tree height is: 3
+Inserts: 15
+Rotations: 1 ZagZig; 
+                              15                                
+              14                              16                
+      9                                               22        
+  7       12                                                    
+        11                                                      
+Tree height is: 4
+Inserts: 2
+Rotations: 4 Zig; 2 ZagZag; 
+                                                              2                                                                 
+                                                                                              14                                
+                                                                              7                               15                
+                                                                                      9                               16        
+                                                                                          12                              22    
+                                                                                        11                                      
+Tree height is: 5
+Inserts: 8
+Rotations: 2 ZagZig; 
+                              8                                 
+              2                               14                
+                      7               9               15        
+                                          12              16    
+                                        11                  22  
+Tree height is: 4
+Inserts: 3
+Rotations: 1 Zig; 1 ZagZig; 
+                                                              3                                                                 
+                              2                                                               8                                 
+                                                                              7                               14                
+                                                                                                      9               15        
+                                                                                                          12              16    
+                                                                                                        11                  22  
+Tree height is: 5
+Inserts: 26
+Rotations: 6 Zag; 3 ZigZig; 
+                                                                                                                              26                                                                                                                                
+                                                              8                                                                                                                                                                                                 
+                              3                                                               15                                                                                                                                                                
+              2                               7                               14                              22                                                                                                                                                
+                                                                      9                               16                                                                                                                                                        
+                                                                          12                                                                                                                                                                                    
+                                                                        11                                                                                                                                                                                      
+Tree height is: 6
+Inserts: 13
+Rotations: 1 ZigZig; 1 ZagZag; 1 ZigZag; 
+                                                              13                                                                
+                              8                                                               26                                
+              3                               12                              14                                                
+      2               7               9                                               15                                        
+                                          11                                              22                                    
+                                                                                        16                                      
+Tree height is: 5
+Inserts: 10
+Rotations: 1 Zig; 2 ZagZig; 
+                                                                                                                              10                                                                                                                                
+                                                              8                                                                                                                               13                                                                
+                              3                                                               9                                                               12                                                              26                                
+              2                               7                                                                                               11                                                              14                                                
+                                                                                                                                                                                                                      15                                        
+                                                                                                                                                                                                                          22                                    
+                                                                                                                                                                                                                        16                                      
+Tree height is: 6
+Inserts: 5
+Rotations: 2 Zig; 1 ZagZag; 1 ZagZig; 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              5                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                              3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               8                                                                                                                                                                                                                                                                 
+                                                                                                                              2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               7                                                                                                                                                                                                                                                               10                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              9                                                                                                                               13                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              12                                                              26                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              11                                                              14                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      15                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          22                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        16                                      
+Tree height is: 8
+Inserts: 20
+Rotations: 5 Zag; 2 ZigZig; 1 ZigZag; 1 ZagZig; 
+                                                              20                                                                
+                              5                                                               26                                
+              3                               10                              22                                                
+      2                               8               13                                                                        
+                                  7       9       12      15                                                                    
+                                                11      14  16                                                                  
+Tree height is: 5
+Inserts: 4
+Rotations: 1 Zig; 1 ZigZag; 
+                                                                                                                              4                                                                                                                                 
+                                                              3                                                                                                                               20                                                                
+                              2                                                                                                                               5                                                               26                                
+                                                                                                                                                                              10                              22                                                
+                                                                                                                                                                      8               13                                                                        
+                                                                                                                                                                  7       9       12      15                                                                    
+                                                                                                                                                                                11      14  16                                                                  
+Tree height is: 6
+Deletion: 9
+Rotations: 1 Zag; 2 ZigZag; 
+                              10                                
+              4                               20                
+      3               5               13              26        
+  2                       8       12      15      22            
+                        7       11      14  16                  
+Tree height is: 4
+Value 9 was not found
+Deletion: 16
+Rotations: 2 Zag; 1 ZigZig; 1 ZagZig; 
+                                                              20                                                                
+                              10                                                              26                                
+              4                               15                              22                                                
+      3               5               13                                                                                        
+  2                       8       12      14                                                                                    
+                        7       11                                                                                              
+Tree height is: 5
+Deletion: 8
+Rotations: 1 ZigZig; 1 ZagZag; 
+                                                              10                                                                
+                              5                                                               20                                
+              4                               7                               15                              26                
+      3                                                               13                              22                        
+  2                                                               12      14                                                    
+                                                                11                                                              
+Tree height is: 5
+Deletion: 12
+Rotations: 2 Zig; 1 ZagZag; 1 ZagZig; 
+                                                              13                                                                
+                              10                                                              20                                
+              5                               11                              15                              26                
+      4               7                                               14                              22                        
+  3                                                                                                                             
+2                                                                                                                               
+Tree height is: 5
+Deletion: 22
+Rotations: 1 Zag; 1 ZagZig; 
+                                                                                                                              26                                                                                                                                
+                                                              13                                                                                                                                                                                                
+                              10                                                              20                                                                                                                                                                
+              5                               11                              15                                                                                                                                                                                
+      4               7                                               14                                                                                                                                                                                        
+  3                                                                                                                                                                                                                                                             
+2                                                                                                                                                                                                                                                               
+Tree height is: 6
+Deletion: 12
+Rotations: 
+                                                                                                                              26                                                                                                                                
+                                                              13                                                                                                                                                                                                
+                              10                                                              20                                                                                                                                                                
+              5                               11                              15                                                                                                                                                                                
+      4               7                                               14                                                                                                                                                                                        
+  3                                                                                                                                                                                                                                                             
+2                                                                                                                                                                                                                                                               
+Tree height is: 6
+Deletion: 14
+Rotations: 2 Zig; 1 ZagZag; 1 ZigZag; 
+                                                                                                                              15                                                                                                                                
+                                                              13                                                                                                                              26                                                                
+                              10                                                                                                                              20                                                                                                
+              5                               11                                                                                                                                                                                                                
+      4               7                                                                                                                                                                                                                                         
+  3                                                                                                                                                                                                                                                             
+2                                                                                                                                                                                                                                                               
+Tree height is: 6
+Deletion: 15
+Rotations: 
+                                                                                                                              20                                                                                                                                
+                                                              13                                                                                                                              26                                                                
+                              10                                                                                                                                                                                                                                
+              5                               11                                                                                                                                                                                                                
+      4               7                                                                                                                                                                                                                                         
+  3                                                                                                                                                                                                                                                             
+2                                                                                                                                                                                                                                                               
+Tree height is: 6
+Deletion: 7
+Rotations: 2 Zig; 1 ZagZag; 1 ZigZag; 
+                              10                                
+              5                               13                
+      4                               11              20        
+  3                                                       26    
+2                                                               
+Tree height is: 4
+Deletion: 4
+Rotations: 2 Zig; 1 ZagZag; 
+                              5                                 
+              3                               10                
+      2                                               13        
+                                                  11      20    
+                                                            26  
+Tree height is: 4
+Deletion: 13
+Rotations: 2 Zag; 1 ZigZig; 
+                              20                                
+              10                              26                
+      5               11                                        
+  3                                                             
+2                                                               
+Tree height is: 4
+          MyDeleteTest
+          Operation Counts
+
+           BST           AVL          Splay
+Search    1             1            1
+Insert    17             22            70
+Delete    11             12            40
+------------------------------------------
+Total     29            35           111

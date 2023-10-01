@@ -1,0 +1,38 @@
+Inserts: 1
+1   
+Tree height is: 0
+Inserts: 3
+  1     
+    3   
+Tree height is: 1
+Inserts: 2
+      1         
+          3     
+        2       
+Tree height is: 2
+Inserts: 6
+      1         
+          3     
+        2   6   
+Tree height is: 2
+Deletion: 4
+      1         
+          3     
+        2   6   
+Tree height is: 2
+Value 5 was not found
+Deletion: 7
+      1         
+          3     
+        2   6   
+Tree height is: 2
+Value 8 was not found
+          itemnotfound
+          Operation Counts
+
+           BST           AVL          Splay
+Search    2             2            2
+Insert    4             5            9
+Delete    2             2            2
+------------------------------------------
+Total     8            9           13

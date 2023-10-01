@@ -1,0 +1,121 @@
+Inserts: 1
+Rotations: 
+1   
+Tree height is: 0
+Inserts: 2
+Rotations: 1 Zag; 
+  2     
+1       
+Tree height is: 1
+Inserts: 4
+Rotations: 1 Zag; 
+      4         
+  2             
+1               
+Tree height is: 2
+Inserts: 8
+Rotations: 1 Zag; 
+              8                 
+      4                         
+  2                             
+1                               
+Tree height is: 3
+Inserts: 16
+Rotations: 1 Zag; 
+                              16                                
+              8                                                 
+      4                                                         
+  2                                                             
+1                                                               
+Tree height is: 4
+Inserts: 16
+Rotations: 1 Zag; 
+                                                              16                                                                
+                              16                                                                                                
+              8                                                                                                                 
+      4                                                                                                                         
+  2                                                                                                                             
+1                                                                                                                               
+Tree height is: 5
+Inserts: 8
+Rotations: 1 Zig; 1 ZigZag; 
+                              8                                 
+              8                               16                
+      4                               16                        
+  2                                                             
+1                                                               
+Tree height is: 4
+Inserts: 4
+Rotations: 1 Zig; 1 ZigZag; 
+              4                 
+      4               8         
+  2               8       16    
+1                       16      
+Tree height is: 3
+Inserts: 2
+Rotations: 1 Zig; 1 ZigZag; 
+                              2                                 
+              2                               4                 
+      1                               4               8         
+                                                  8       16    
+                                                        16      
+Tree height is: 4
+Inserts: 1
+Rotations: 1 Zig; 1 ZigZag; 
+                                                              1                                                                 
+                              1                                                               2                                 
+                                                                              2                               4                 
+                                                                                                      4               8         
+                                                                                                                  8       16    
+                                                                                                                        16      
+Tree height is: 5
+Value 1 was found at height 5 with no parent 
+Rotations: 
+                                                              1                                                                 
+                              1                                                               2                                 
+                                                                              2                               4                 
+                                                                                                      4               8         
+                                                                                                                  8       16    
+                                                                                                                        16      
+Tree height is: 5
+Value 2 was found at height 4 with parent 1
+Rotations: 1 Zag; 
+                              2                                 
+              1                               4                 
+      1               2               4               8         
+                                                  8       16    
+                                                        16      
+Tree height is: 4
+Value 4 was found at height 3 with parent 2
+Rotations: 1 Zag; 
+              4                 
+      2               8         
+  1       4       8       16    
+1   2                   16      
+Tree height is: 3
+Value 8 was found at height 2 with parent 4
+Rotations: 1 Zag; 
+                              8                                 
+              4                               16                
+      2               8               16                        
+  1       4                                                     
+1   2                                                           
+Tree height is: 4
+Value 16 was found at height 1 with parent 8
+Rotations: 1 Zag; 
+                                                              16                                                                
+                              8                                                                                                 
+              4                               16                                                                                
+      2               8                                                                                                         
+  1       4                                                                                                                     
+1   2                                                                                                                           
+Tree height is: 5
+          Double_Tree
+          Operation Counts
+
+           BST           AVL          Splay
+Search    5             5            9
+Insert    10             12            23
+Delete    0             0            0
+------------------------------------------
+Total     15            17           32

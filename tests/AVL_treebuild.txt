@@ -1,0 +1,229 @@
+Inserts: 51
+Rotations: 
+51  
+Tree height is: 0
+Inserts: 43
+Rotations: 
+  51    
+43      
+Tree height is: 1
+Inserts: 84
+Rotations: 
+  51    
+43  84  
+Tree height is: 1
+Inserts: 64
+Rotations: 
+      51        
+  43      84    
+        64      
+Tree height is: 2
+Inserts: 81
+Rotations: 1 LR; 
+      51        
+  43      81    
+        64  84  
+Tree height is: 2
+Inserts: 34
+Rotations: 
+      51        
+  43      81    
+34      64  84  
+Tree height is: 2
+Inserts: 15
+Rotations: 1 R; 
+      51        
+  34      81    
+15  43  64  84  
+Tree height is: 2
+Inserts: 72
+Rotations: 
+              51                
+      34              81        
+  15      43      64      84    
+                    72          
+Tree height is: 3
+Inserts: 9
+Rotations: 
+              51                
+      34              81        
+  15      43      64      84    
+9                   72          
+Tree height is: 3
+Inserts: 43
+Rotations: 
+              51                
+      34              81        
+  15      43      64      84    
+9                   72          
+Tree height is: 3
+Inserts: 5
+Rotations: 1 R; 
+              51                
+      34              81        
+  9       43      64      84    
+5   15              72          
+Tree height is: 3
+Inserts: 13
+Rotations: 1 LR; 
+              51                
+      15              81        
+  9       34      64      84    
+5   13      43      72          
+Tree height is: 3
+Inserts: 19
+Rotations: 
+              51                
+      15              81        
+  9       34      64      84    
+5   13  19  43      72          
+Tree height is: 3
+Inserts: 24
+Rotations: 
+                              51                                
+              15                              81                
+      9               34              64              84        
+  5       13      19      43              72                    
+                    24                                          
+Tree height is: 4
+Inserts: 28
+Rotations: 1 L; 
+                              51                                
+              15                              81                
+      9               34              64              84        
+  5       13      24      43              72                    
+                19  28                                          
+Tree height is: 4
+Inserts: 24
+Rotations: 
+                              51                                
+              15                              81                
+      9               34              64              84        
+  5       13      24      43              72                    
+                19  28                                          
+Tree height is: 4
+Inserts: 16
+Rotations: 1 R; 
+                              51                                
+              15                              81                
+      9               24              64              84        
+  5       13      19      34              72                    
+                16      28  43                                  
+Tree height is: 4
+Inserts: 98
+Rotations: 
+                              51                                
+              15                              81                
+      9               24              64              84        
+  5       13      19      34              72              98    
+                16      28  43                                  
+Tree height is: 4
+Inserts: 57
+Rotations: 
+                              51                                
+              15                              81                
+      9               24              64              84        
+  5       13      19      34      57      72              98    
+                16      28  43                                  
+Tree height is: 4
+Inserts: 32
+Rotations: 1 L; 
+                              51                                
+              24                              81                
+      15              34              64              84        
+  9       19      28      43      57      72              98    
+5   13  16          32                                          
+Tree height is: 4
+Inserts: 60
+Rotations: 
+                              51                                
+              24                              81                
+      15              34              64              84        
+  9       19      28      43      57      72              98    
+5   13  16          32              60                          
+Tree height is: 4
+Inserts: 18
+Rotations: 1 LR; 
+                              51                                
+              24                              81                
+      15              34              64              84        
+  9       18      28      43      57      72              98    
+5   13  16  19      32              60                          
+Tree height is: 4
+Inserts: 40
+Rotations: 
+                              51                                
+              24                              81                
+      15              34              64              84        
+  9       18      28      43      57      72              98    
+5   13  16  19      32  40          60                          
+Tree height is: 4
+Inserts: 29
+Rotations: 1 RL; 
+                              51                                
+              24                              81                
+      15              34              64              84        
+  9       18      29      43      57      72              98    
+5   13  16  19  28  32  40          60                          
+Tree height is: 4
+Inserts: 58
+Rotations: 1 RL; 
+                              51                                
+              24                              81                
+      15              34              64              84        
+  9       18      29      43      58      72              98    
+5   13  16  19  28  32  40      57  60                          
+Tree height is: 4
+Inserts: 45
+Rotations: 
+                              51                                
+              24                              81                
+      15              34              64              84        
+  9       18      29      43      58      72              98    
+5   13  16  19  28  32  40  45  57  60                          
+Tree height is: 4
+Inserts: 46
+Rotations: 
+                                                              51                                                                
+                              24                                                              81                                
+              15                              34                              64                              84                
+      9               18              29              43              58              72                              98        
+  5       13      16      19      28      32      40      45      57      60                                                    
+                                                            46                                                                  
+Tree height is: 5
+Value 51 was found
+Value 43 was found
+Value 84 was found
+Value 64 was found
+Value 81 was found
+Value 34 was found
+Value 15 was found
+Value 72 was found
+Value 9 was found
+Value 43 was found
+Value 5 was found
+Value 13 was found
+Value 19 was found
+Value 24 was found
+Value 28 was found
+Value 24 was found
+Value 16 was found
+Value 98 was found
+Value 57 was found
+Value 32 was found
+Value 60 was found
+Value 18 was found
+Value 40 was found
+Value 29 was found
+Value 58 was found
+Value 45 was found
+Value 46 was found
+          treebuild
+          Operation Counts
+
+           BST           AVL          Splay
+Search    27             27            147
+Insert    27             37            121
+Delete    0             0            0
+------------------------------------------
+Total     54            64           268

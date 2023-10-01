@@ -1,0 +1,84 @@
+Inserts: 9
+9   
+Tree height is: 0
+Inserts: 6
+  9     
+6       
+Tree height is: 1
+Inserts: 15
+  9     
+6   15  
+Tree height is: 1
+Inserts: 4
+      9         
+  6       15    
+4               
+Tree height is: 2
+Inserts: 7
+      9         
+  6       15    
+4   7           
+Tree height is: 2
+Inserts: 18
+      9         
+  6       15    
+4   7       18  
+Tree height is: 2
+Inserts: 3
+              9                 
+      6               15        
+  4       7               18    
+3                               
+Tree height is: 3
+Inserts: 2
+                              9                                 
+              6                               15                
+      4               7                               18        
+  3                                                             
+2                                                               
+Tree height is: 4
+Inserts: 22
+                              9                                 
+              6                               15                
+      4               7                               18        
+  3                                                       22    
+2                                                               
+Tree height is: 4
+Inserts: 25
+                              9                                 
+              6                               15                
+      4               7                               18        
+  3                                                       22    
+2                                                           25  
+Tree height is: 4
+Inserts: 5
+                              9                                 
+              6                               15                
+      4               7                               18        
+  3       5                                               22    
+2                                                           25  
+Tree height is: 4
+Inserts: 21
+                              9                                 
+              6                               15                
+      4               7                               18        
+  3       5                                               22    
+2                                                       21  25  
+Tree height is: 4
+Inserts: 20
+                                                              9                                                                 
+                              6                                                               15                                
+              4                               7                                                               18                
+      3               5                                                                                               22        
+  2                                                                                                               21      25    
+                                                                                                                20              
+Tree height is: 5
+          myInsetTest
+          Operation Counts
+
+           BST           AVL          Splay
+Search    0             0            0
+Insert    13             17            53
+Delete    0             0            0
+------------------------------------------
+Total     13            17           53

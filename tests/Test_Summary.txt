@@ -1,0 +1,21 @@
+          Summary
+          Operation Counts
+
+Test   Title                   BST                AVL               Splay
+1      10           20                26                60
+2      80-20           41                48                176
+3      AssignmentSheet           63                74                273
+4      Double_Tree           15                17                32
+5      emptytree           6                6                6
+6      in-and-del           11                12                27
+7      invalidData           0                0                0
+8      itemnotfound           8                9                13
+9      least2greatest           12                18                23
+10      myCombinedTest           33                38                136
+11      myDeleteTest           29                35                111
+12      myInsetTest           13                17                53
+13      mySearchTest           18                20                50
+14      mytestinvalid           2                2                2
+15      treebuild           54                64                268
+---------------------------------------------------------
+Total of 15 tests:              325                 386                 1230

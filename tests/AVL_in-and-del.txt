@@ -1,0 +1,70 @@
+Inserts: 6
+Rotations: 
+6   
+Tree height is: 0
+Inserts: 1
+Rotations: 
+  6     
+1       
+Tree height is: 1
+Inserts: 2
+Rotations: 1 LR; 
+  2     
+1   6   
+Tree height is: 1
+Inserts: 9
+Rotations: 
+      2         
+  1       6     
+            9   
+Tree height is: 2
+Inserts: 3
+Rotations: 
+      2         
+  1       6     
+        3   9   
+Tree height is: 2
+Deletion: 2
+Rotations: 
+      3         
+  1       6     
+            9   
+Tree height is: 2
+Deletion: 9
+Rotations: 
+  3     
+1   6   
+Tree height is: 1
+Inserts: 7
+Rotations: 
+      3         
+  1       6     
+            7   
+Tree height is: 2
+Inserts: 4
+Rotations: 
+      3         
+  1       6     
+        4   7   
+Tree height is: 2
+Deletion: 6
+Rotations: 
+      3         
+  1       7     
+        4       
+Tree height is: 2
+Inserts: 8
+Rotations: 
+      3         
+  1       7     
+        4   8   
+Tree height is: 2
+          in-and-del
+          Operation Counts
+
+           BST           AVL          Splay
+Search    0             0            0
+Insert    8             9            21
+Delete    3             3            6
+------------------------------------------
+Total     11            12           27

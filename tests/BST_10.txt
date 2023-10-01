@@ -1,0 +1,122 @@
+Inserts: 51
+51  
+Tree height is: 0
+Inserts: 43
+  51    
+43      
+Tree height is: 1
+Inserts: 84
+  51    
+43  84  
+Tree height is: 1
+Inserts: 64
+      51        
+  43      84    
+        64      
+Tree height is: 2
+Inserts: 81
+              51                
+      43              84        
+                  64            
+                    81          
+Tree height is: 3
+Inserts: 34
+              51                
+      43              84        
+  34              64            
+                    81          
+Tree height is: 3
+Inserts: 15
+              51                
+      43              84        
+  34              64            
+15                  81          
+Tree height is: 3
+Inserts: 72
+                              51                                
+              43                              84                
+      34                              64                        
+  15                                      81                    
+                                        72                      
+Tree height is: 4
+Inserts: 9
+                              51                                
+              43                              84                
+      34                              64                        
+  15                                      81                    
+9                                       72                      
+Tree height is: 4
+Inserts: 10
+                                                              51                                                                
+                              43                                                              84                                
+              34                                                              64                                                
+      15                                                                              81                                        
+  9                                                                               72                                            
+    10                                                                                                                          
+Tree height is: 5
+Deletion: 51
+                                                              64                                                                
+                              43                                                              84                                
+              34                                                              81                                                
+      15                                                              72                                                        
+  9                                                                                                                             
+    10                                                                                                                          
+Tree height is: 5
+Deletion: 43
+                              64                                
+              34                              84                
+      15                              81                        
+  9                               72                            
+    10                                                          
+Tree height is: 4
+Deletion: 84
+                              64                                
+              34                              81                
+      15                              72                        
+  9                                                             
+    10                                                          
+Tree height is: 4
+Deletion: 64
+                              72                                
+              34                              81                
+      15                                                        
+  9                                                             
+    10                                                          
+Tree height is: 4
+Deletion: 81
+                              72                                
+              34                                                
+      15                                                        
+  9                                                             
+    10                                                          
+Tree height is: 4
+Deletion: 34
+              72                
+      15                        
+  9                             
+    10                          
+Tree height is: 3
+Deletion: 15
+      72        
+  9             
+    10          
+Tree height is: 2
+Deletion: 72
+  9     
+    10  
+Tree height is: 1
+Deletion: 9
+10  
+Tree height is: 0
+Deletion: 10
+    
+Tree height is: 0
+          10
+          Operation Counts
+
+           BST           AVL          Splay
+Search    0             0            0
+Insert    10             13            34
+Delete    10             13            26
+------------------------------------------
+Total     20            26           60

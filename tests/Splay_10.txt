@@ -1,0 +1,145 @@
+Inserts: 51
+Rotations: 
+51  
+Tree height is: 0
+Inserts: 43
+Rotations: 1 Zig; 
+  43    
+    51  
+Tree height is: 1
+Inserts: 84
+Rotations: 2 Zag; 1 ZigZig; 
+      84        
+  51            
+43              
+Tree height is: 2
+Inserts: 64
+Rotations: 1 ZigZag; 
+      64        
+  51      84    
+43              
+Tree height is: 2
+Inserts: 81
+Rotations: 1 ZagZig; 
+              81                
+      64              84        
+  51                            
+43                              
+Tree height is: 3
+Inserts: 34
+Rotations: 4 Zig; 2 ZagZag; 
+              34                
+                      64        
+                  43      81    
+                    51      84  
+Tree height is: 3
+Inserts: 15
+Rotations: 1 Zig; 
+                              15                                
+                                              34                
+                                                      64        
+                                                  43      81    
+                                                    51      84  
+Tree height is: 4
+Inserts: 72
+Rotations: 2 Zag; 1 ZigZig; 1 ZagZig; 
+                              72                                
+              34                              81                
+      15              64                              84        
+                  43                                            
+                    51                                          
+Tree height is: 4
+Inserts: 9
+Rotations: 3 Zig; 1 ZagZag; 
+                                                                                                                              9                                                                                                                                 
+                                                                                                                                                                                              72                                                                
+                                                                                                                                                              15                                                              81                                
+                                                                                                                                                                              34                                                              84                
+                                                                                                                                                                                      64                                                                        
+                                                                                                                                                                                  43                                                                            
+                                                                                                                                                                                    51                                                                          
+Tree height is: 6
+Inserts: 10
+Rotations: 2 Zig; 1 ZagZag; 
+                                                                                                                              10                                                                                                                                
+                                                              9                                                                                                                               15                                                                
+                                                                                                                                                                                                                              72                                
+                                                                                                                                                                                                              34                              81                
+                                                                                                                                                                                                                      64                              84        
+                                                                                                                                                                                                                  43                                            
+                                                                                                                                                                                                                    51                                          
+Tree height is: 6
+Deletion: 51
+Rotations: 2 Zag; 1 ZigZig; 2 ZigZag; 
+              64                
+      15              72        
+  10      34              81    
+9           43              84  
+Tree height is: 3
+Deletion: 43
+Rotations: 2 Zag; 1 ZigZig; 
+                              64                                
+              34                              72                
+      15                                              81        
+  10                                                      84    
+9                                                               
+Tree height is: 4
+Deletion: 84
+Rotations: 3 Zag; 1 ZigZig; 
+                              64                                
+              34                              81                
+      15                              72                        
+  10                                                            
+9                                                               
+Tree height is: 4
+Deletion: 64
+Rotations: 
+                              72                                
+              34                              81                
+      15                                                        
+  10                                                            
+9                                                               
+Tree height is: 4
+Deletion: 81
+Rotations: 1 Zag; 
+                              72                                
+              34                                                
+      15                                                        
+  10                                                            
+9                                                               
+Tree height is: 4
+Deletion: 34
+Rotations: 1 Zig; 
+              72                
+      15                        
+  10                            
+9                               
+Tree height is: 3
+Deletion: 15
+Rotations: 1 Zig; 
+      72        
+  10            
+9               
+Tree height is: 2
+Deletion: 72
+Rotations: 
+  10    
+9       
+Tree height is: 1
+Deletion: 9
+Rotations: 1 Zig; 
+10  
+Tree height is: 0
+Deletion: 10
+Rotations: 
+    
+Tree height is: 0
+          10
+          Operation Counts
+
+           BST           AVL          Splay
+Search    0             0            0
+Insert    10             13            34
+Delete    10             13            26
+------------------------------------------
+Total     20            26           60

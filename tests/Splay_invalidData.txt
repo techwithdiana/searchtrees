@@ -1,0 +1,12 @@
+error in actions file
+error in actions file
+error in actions file
+          invalidData
+          Operation Counts
+
+           BST           AVL          Splay
+Search    0             0            0
+Insert    0             0            0
+Delete    0             0            0
+------------------------------------------
+Total     0            0           0

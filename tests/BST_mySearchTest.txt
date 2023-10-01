@@ -1,0 +1,53 @@
+Inserts: 13
+13  
+Tree height is: 0
+Inserts: 10
+  13    
+10      
+Tree height is: 1
+Inserts: 8
+      13        
+  10            
+8               
+Tree height is: 2
+Inserts: 11
+      13        
+  10            
+8   11          
+Tree height is: 2
+Inserts: 15
+      13        
+  10      15    
+8   11          
+Tree height is: 2
+Inserts: 19
+      13        
+  10      15    
+8   11      19  
+Tree height is: 2
+Value 10 was found
+Value 8 was found
+Value 10 was found
+Value 19 was found
+Value 13 was found
+Value 15 was found
+Value 10 was found
+Value 15 was found
+Value 12 was not found
+Inserts: 12
+              13                
+      10              15        
+  8       11              19    
+            12                  
+Tree height is: 3
+Value 10 was found
+Value 12 was found
+          mySearchTest
+          Operation Counts
+
+           BST           AVL          Splay
+Search    11             11            33
+Insert    7             9            17
+Delete    0             0            0
+------------------------------------------
+Total     18            20           50

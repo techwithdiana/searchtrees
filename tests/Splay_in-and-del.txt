@@ -1,0 +1,75 @@
+Inserts: 6
+Rotations: 
+6   
+Tree height is: 0
+Inserts: 1
+Rotations: 1 Zig; 
+  1     
+    6   
+Tree height is: 1
+Inserts: 2
+Rotations: 1 ZagZig; 
+  2     
+1   6   
+Tree height is: 1
+Inserts: 9
+Rotations: 2 Zag; 1 ZigZig; 
+              9                 
+      6                         
+  2                             
+1                               
+Tree height is: 3
+Inserts: 3
+Rotations: 1 Zig; 1 ZigZag; 
+      3         
+  2       9     
+1       6       
+Tree height is: 2
+Deletion: 2
+Rotations: 1 Zig; 
+      3         
+  1       9     
+        6       
+Tree height is: 2
+Deletion: 9
+Rotations: 1 Zag; 
+  3     
+1   6   
+Tree height is: 1
+Inserts: 7
+Rotations: 2 Zag; 1 ZigZig; 
+              7                 
+      6                         
+  3                             
+1                               
+Tree height is: 3
+Inserts: 4
+Rotations: 1 Zig; 1 ZigZag; 
+      4         
+  3       7     
+1       6       
+Tree height is: 2
+Deletion: 6
+Rotations: 1 ZagZig; 
+              7                 
+      4                         
+  3                             
+1                               
+Tree height is: 3
+Inserts: 8
+Rotations: 1 Zag; 
+                              8                                 
+              7                                                 
+      4                                                         
+  3                                                             
+1                                                               
+Tree height is: 4
+          in-and-del
+          Operation Counts
+
+           BST           AVL          Splay
+Search    0             0            0
+Insert    8             9            21
+Delete    3             3            6
+------------------------------------------
+Total     11            12           27

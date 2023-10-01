@@ -1,0 +1,201 @@
+Inserts: 90
+Rotations: 
+90  
+Tree height is: 0
+Inserts: 39
+Rotations: 
+  90    
+39      
+Tree height is: 1
+Inserts: 41
+Rotations: 1 LR; 
+  41    
+39  90  
+Tree height is: 1
+Inserts: 20
+Rotations: 
+      41        
+  39      90    
+20              
+Tree height is: 2
+Inserts: 4
+Rotations: 1 R; 
+      41        
+  20      90    
+4   39          
+Tree height is: 2
+Inserts: 92
+Rotations: 
+      41        
+  20      90    
+4   39      92  
+Tree height is: 2
+Inserts: 1
+Rotations: 
+              41                
+      20              90        
+  4       39              92    
+1                               
+Tree height is: 3
+Inserts: 91
+Rotations: 1 RL; 
+              41                
+      20              91        
+  4       39      90      92    
+1                               
+Tree height is: 3
+Inserts: 98
+Rotations: 
+              41                
+      20              91        
+  4       39      90      92    
+1                           98  
+Tree height is: 3
+Inserts: 88
+Rotations: 
+              41                
+      20              91        
+  4       39      90      92    
+1               88          98  
+Tree height is: 3
+Inserts: 73
+Rotations: 1 R; 
+              41                
+      20              91        
+  4       39      88      92    
+1               73  90      98  
+Tree height is: 3
+Inserts: 10
+Rotations: 
+              41                
+      20              91        
+  4       39      88      92    
+1   10          73  90      98  
+Tree height is: 3
+Inserts: 26
+Rotations: 
+              41                
+      20              91        
+  4       39      88      92    
+1   10  26      73  90      98  
+Tree height is: 3
+Inserts: 88
+Rotations: 
+              41                
+      20              91        
+  4       39      88      92    
+1   10  26      73  90      98  
+Tree height is: 3
+Inserts: 69
+Rotations: 
+                              41                                
+              20                              91                
+      4               39              88              92        
+  1       10      26              73      90              98    
+                                69                              
+Tree height is: 4
+Inserts: 3
+Rotations: 
+                              41                                
+              20                              91                
+      4               39              88              92        
+  1       10      26              73      90              98    
+    3                           69                              
+Tree height is: 4
+Inserts: 43
+Rotations: 1 R; 
+                              41                                
+              20                              91                
+      4               39              88              92        
+  1       10      26              69      90              98    
+    3                           43  73                          
+Tree height is: 4
+Inserts: 90
+Rotations: 
+                              41                                
+              20                              91                
+      4               39              88              92        
+  1       10      26              69      90              98    
+    3                           43  73                          
+Tree height is: 4
+Inserts: 88
+Rotations: 
+                              41                                
+              20                              91                
+      4               39              88              92        
+  1       10      26              69      90              98    
+    3                           43  73                          
+Tree height is: 4
+Inserts: 82
+Rotations: 1 LR; 
+                              41                                
+              20                              91                
+      4               39              73              92        
+  1       10      26              69      88              98    
+    3                           43      82  90                  
+Tree height is: 4
+Inserts: 6
+Rotations: 
+                              41                                
+              20                              91                
+      4               39              73              92        
+  1       10      26              69      88              98    
+    3   6                       43      82  90                  
+Tree height is: 4
+Inserts: 49
+Rotations: 1 LR; 
+                              41                                
+              20                              91                
+      4               39              73              92        
+  1       10      26              49      88              98    
+    3   6                       43  69  82  90                  
+Tree height is: 4
+Inserts: 20
+Rotations: 
+                              41                                
+              20                              91                
+      4               39              73              92        
+  1       10      26              49      88              98    
+    3   6                       43  69  82  90                  
+Tree height is: 4
+Inserts: 10
+Rotations: 
+                              41                                
+              20                              91                
+      4               39              73              92        
+  1       10      26              49      88              98    
+    3   6                       43  69  82  90                  
+Tree height is: 4
+Inserts: 12
+Rotations: 
+                              41                                
+              20                              91                
+      4               39              73              92        
+  1       10      26              49      88              98    
+    3   6   12                  43  69  82  90                  
+Tree height is: 4
+Value 20 was found
+Value 88 was found
+Value 4 was found
+Value 41 was found
+Value 73 was found
+Value 41 was found
+Value 20 was found
+Value 1 was found
+Value 73 was found
+Value 88 was found
+Value 6 was found
+Value 41 was found
+Value 91 was found
+Value 43 was found
+Value 20 was found
+Value 41 was found
+          80-20
+          Operation Counts
+
+           BST           AVL          Splay
+Search    16             16            68
+Insert    25             32            108
+Delete    0             0            0
+------------------------------------------
+Total     41            48           176

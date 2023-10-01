@@ -1,0 +1,90 @@
+Inserts: 9
+Rotations: 
+9   
+Tree height is: 0
+Inserts: 6
+Rotations: 
+  9     
+6       
+Tree height is: 1
+Inserts: 15
+Rotations: 
+  9     
+6   15  
+Tree height is: 1
+Inserts: 4
+Rotations: 
+      9         
+  6       15    
+4               
+Tree height is: 2
+Inserts: 7
+Rotations: 
+      9         
+  6       15    
+4   7           
+Tree height is: 2
+Inserts: 18
+Rotations: 
+      9         
+  6       15    
+4   7       18  
+Tree height is: 2
+Inserts: 3
+Rotations: 
+              9                 
+      6               15        
+  4       7               18    
+3                               
+Tree height is: 3
+Inserts: 2
+Rotations: 1 R; 
+              9                 
+      6               15        
+  3       7               18    
+2   4                           
+Tree height is: 3
+Inserts: 22
+Rotations: 1 L; 
+              9                 
+      6               18        
+  3       7       15      22    
+2   4                           
+Tree height is: 3
+Inserts: 25
+Rotations: 
+              9                 
+      6               18        
+  3       7       15      22    
+2   4                       25  
+Tree height is: 3
+Inserts: 5
+Rotations: 1 LR; 
+              9                 
+      4               18        
+  3       6       15      22    
+2       5   7               25  
+Tree height is: 3
+Inserts: 21
+Rotations: 
+              9                 
+      4               18        
+  3       6       15      22    
+2       5   7           21  25  
+Tree height is: 3
+Inserts: 20
+Rotations: 1 RL; 
+              9                 
+      4               21        
+  3       6       18      22    
+2       5   7   15  20      25  
+Tree height is: 3
+          myInsetTest
+          Operation Counts
+
+           BST           AVL          Splay
+Search    0             0            0
+Insert    13             17            53
+Delete    0             0            0
+------------------------------------------
+Total     13            17           53

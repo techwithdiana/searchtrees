@@ -1,0 +1,204 @@
+Inserts: 7
+Rotations: 
+7   
+Tree height is: 0
+Inserts: 12
+Rotations: 
+  7     
+    12  
+Tree height is: 1
+Inserts: 22
+Rotations: 1 L; 
+  12    
+7   22  
+Tree height is: 1
+Inserts: 11
+Rotations: 
+      12        
+  7       22    
+    11          
+Tree height is: 2
+Inserts: 16
+Rotations: 
+      12        
+  7       22    
+    11  16      
+Tree height is: 2
+Inserts: 9
+Rotations: 1 RL; 
+      12        
+  9       22    
+7   11  16      
+Tree height is: 2
+Inserts: 14
+Rotations: 1 R; 
+      12        
+  9       16    
+7   11  14  22  
+Tree height is: 2
+Inserts: 15
+Rotations: 
+              12                
+      9               16        
+  7       11      14      22    
+                    15          
+Tree height is: 3
+Inserts: 2
+Rotations: 
+              12                
+      9               16        
+  7       11      14      22    
+2                   15          
+Tree height is: 3
+Inserts: 8
+Rotations: 
+              12                
+      9               16        
+  7       11      14      22    
+2   8               15          
+Tree height is: 3
+Inserts: 3
+Rotations: 1 R; 
+              12                
+      7               16        
+  2       9       14      22    
+    3   8   11      15          
+Tree height is: 3
+Inserts: 26
+Rotations: 
+              12                
+      7               16        
+  2       9       14      22    
+    3   8   11      15      26  
+Tree height is: 3
+Inserts: 13
+Rotations: 
+              12                
+      7               16        
+  2       9       14      22    
+    3   8   11  13  15      26  
+Tree height is: 3
+Inserts: 10
+Rotations: 
+                              12                                
+              7                               16                
+      2               9               14              22        
+          3       8       11      13      15              26    
+                        10                                      
+Tree height is: 4
+Inserts: 5
+Rotations: 1 L; 
+                              12                                
+              7                               16                
+      3               9               14              22        
+  2       5       8       11      13      15              26    
+                        10                                      
+Tree height is: 4
+Inserts: 20
+Rotations: 
+                              12                                
+              7                               16                
+      3               9               14              22        
+  2       5       8       11      13      15      20      26    
+                        10                                      
+Tree height is: 4
+Inserts: 4
+Rotations: 
+                              12                                
+              7                               16                
+      3               9               14              22        
+  2       5       8       11      13      15      20      26    
+        4               10                                      
+Tree height is: 4
+Deletion: 9
+Rotations: 
+                              12                                
+              7                               16                
+      3               10              14              22        
+  2       5       8       11      13      15      20      26    
+        4                                                       
+Tree height is: 4
+Value 9 was not found
+Deletion: 16
+Rotations: 
+                              12                                
+              7                               20                
+      3               10              14              22        
+  2       5       8       11      13      15              26    
+        4                                                       
+Tree height is: 4
+Deletion: 8
+Rotations: 
+                              12                                
+              7                               20                
+      3               10              14              22        
+  2       5               11      13      15              26    
+        4                                                       
+Tree height is: 4
+Deletion: 12
+Rotations: 
+                              13                                
+              7                               20                
+      3               10              14              22        
+  2       5               11              15              26    
+        4                                                       
+Tree height is: 4
+Deletion: 22
+Rotations: 
+                              13                                
+              7                               20                
+      3               10              14              26        
+  2       5               11              15                    
+        4                                                       
+Tree height is: 4
+Deletion: 12
+Rotations: 
+                              13                                
+              7                               20                
+      3               10              14              26        
+  2       5               11              15                    
+        4                                                       
+Tree height is: 4
+Deletion: 14
+Rotations: 1 R; 
+              7                 
+      3               13        
+  2       5       10      20    
+        4           11  15  26  
+Tree height is: 3
+Deletion: 15
+Rotations: 
+              7                 
+      3               13        
+  2       5       10      20    
+        4           11      26  
+Tree height is: 3
+Deletion: 7
+Rotations: 
+              10                
+      3               13        
+  2       5       11      20    
+        4                   26  
+Tree height is: 3
+Deletion: 4
+Rotations: 
+              10                
+      3               13        
+  2       5       11      20    
+                            26  
+Tree height is: 3
+Deletion: 13
+Rotations: 
+      10        
+  3       20    
+2   5   11  26  
+Tree height is: 2
+          MyDeleteTest
+          Operation Counts
+
+           BST           AVL          Splay
+Search    1             1            1
+Insert    17             22            70
+Delete    11             12            40
+------------------------------------------
+Total     29            35           111

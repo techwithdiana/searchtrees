@@ -1,0 +1,125 @@
+Inserts: 51
+Rotations: 
+51  
+Tree height is: 0
+Inserts: 43
+Rotations: 
+  51    
+43      
+Tree height is: 1
+Inserts: 84
+Rotations: 
+  51    
+43  84  
+Tree height is: 1
+Inserts: 64
+Rotations: 
+      51        
+  43      84    
+        64      
+Tree height is: 2
+Inserts: 81
+Rotations: 1 LR; 
+      51        
+  43      81    
+        64  84  
+Tree height is: 2
+Inserts: 34
+Rotations: 
+      51        
+  43      81    
+34      64  84  
+Tree height is: 2
+Inserts: 15
+Rotations: 1 R; 
+      51        
+  34      81    
+15  43  64  84  
+Tree height is: 2
+Inserts: 72
+Rotations: 
+              51                
+      34              81        
+  15      43      64      84    
+                    72          
+Tree height is: 3
+Inserts: 9
+Rotations: 
+              51                
+      34              81        
+  15      43      64      84    
+9                   72          
+Tree height is: 3
+Inserts: 10
+Rotations: 1 LR; 
+              51                
+      34              81        
+  10      43      64      84    
+9   15              72          
+Tree height is: 3
+Deletion: 51
+Rotations: 
+              64                
+      34              81        
+  10      43      72      84    
+9   15                          
+Tree height is: 3
+Deletion: 43
+Rotations: 1 LR; 
+              64                
+      15              81        
+  10      34      72      84    
+9                               
+Tree height is: 3
+Deletion: 84
+Rotations: 
+              64                
+      15              81        
+  10      34      72            
+9                               
+Tree height is: 3
+Deletion: 64
+Rotations: 1 R; 
+      15        
+  10      72    
+9       34  81  
+Tree height is: 2
+Deletion: 81
+Rotations: 
+      15        
+  10      72    
+9       34      
+Tree height is: 2
+Deletion: 34
+Rotations: 
+      15        
+  10      72    
+9               
+Tree height is: 2
+Deletion: 15
+Rotations: 1 R; 
+  10    
+9   72  
+Tree height is: 1
+Deletion: 72
+Rotations: 
+  10    
+9       
+Tree height is: 1
+Deletion: 9
+Rotations: 
+10  
+Tree height is: 0
+Deletion: 10
+Rotations: 
+    
+Tree height is: 0
+          10
+          Operation Counts
+
+           BST           AVL          Splay
+Search    0             0            0
+Insert    10             13            34
+Delete    10             13            26
+------------------------------------------
+Total     20            26           60

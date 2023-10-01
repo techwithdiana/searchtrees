@@ -1,0 +1,21 @@
+Value 1 was not found
+Deletion: 1
+    
+Tree height is: 0
+Inserts: 1
+1   
+Tree height is: 0
+Value 1 was found
+Deletion: 1
+    
+Tree height is: 0
+Value 1 was not found
+          emptytree
+          Operation Counts
+
+           BST           AVL          Splay
+Search    3             3            3
+Insert    1             1            1
+Delete    2             2            2
+------------------------------------------
+Total     6            6           6
